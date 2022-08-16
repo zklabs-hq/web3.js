@@ -1029,6 +1029,7 @@ Returns
   - ``size`` - ``Number``: Integer the size of this block in bytes.
   - ``gasLimit`` - ``Number``: The maximum gas allowed in this block.
   - ``gasUsed`` - ``Number``: The total used gas by all transactions in this block.
+  - ``baseFeePerGas`` - ``Number``: Base fee need to be spent per gas, needed after(After London Fork).
   - ``timestamp`` - ``Number``: The unix timestamp for when the block was collated.
   - ``transactions`` - ``Array``: Array of transaction objects, or 32 Bytes transaction hashes depending on the ``returnTransactionObjects`` parameter.
   - ``uncles`` - ``Array``: Array of uncle hashes.
